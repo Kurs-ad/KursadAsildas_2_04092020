@@ -60,29 +60,38 @@ figure{
 }
 
 /* partie filtres */
+
 #filtres ul{
 	display : flex;
 	list-style-type: none;
+	margin: auto;
 }
 
 #filtres li{
-	border: 1px solid grey;
-	border-radius: 50px;
-	padding-right: 10px;
-	padding-top: 10px;
+	border: 1px solid #d0d0d0;
+	border-radius: 30px;
+	padding-right: 20px;
+	height: 40px;
+	font-weight: bold;
 }
 
 #filtres{
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid black;
-	width: 800px;
+	width: 1000px;
 	height: 100px;
+}
+
+#filtres .filtres{
+	padding-left: 10px;
 }
 
 #filtres h2{
 	margin: auto;
 	margin-left: 0px;
+	font-size: 20px;
+	border:1px solid black;
 }
 
 #filtres i{
@@ -153,27 +162,41 @@ figure{
 
 #boitesPop a{
 	display: flex;
+	justify-content: space-between;
+	width: 340px;
 }
 
 #boitesPop figure{
 	border: 1px solid blue;
 }
 
+
 /* Les activités */
 
 #activites{
-	width: 1440px;
-	height: 500px;
 	border: 1px solid black;
 }
 
 #conteneur{
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width:1440px;
+	height: 500px;
 	justify-content: space-around;
 	border: 1px solid red;
 }
 
+.element1{
+	border-radius: 20px;
+	padding: 0px;
+	border: 1px solid black;
+}
 
+.element2{
+	border-radius: 20px;
+	border: 1px solid black;
+}
 
 footer{
 	display: flex;
