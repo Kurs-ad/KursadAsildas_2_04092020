@@ -29,26 +29,23 @@ body{
 h1{
 	margin-top: 10px;
 	margin-bottom: ;
-	font-size: 24px;
-	font-style: "raleway-extrabold";
+	font-size: 22px;
+	font-family: "raleway-extrabold";
 }
 
-a{
-	text-decoration: none;
-	color: black;
-}
 
 h2{
-	font-style: "raleway-bold";
+	font-family: "raleway-bold";
 }
 
 h3{
+	font-family: raleway-bold;
 	margin: 5px;
 	margin-left: 0px;
 }
 
 figcaption{
-	margin: 5px;
+	margin-left: 10px;
 }
 
 
@@ -62,8 +59,14 @@ header{
 	height: 100px;
 }
 
+header a{
+	text-decoration: none;
+	color: black;
+}
+
 
 nav ul{
+	margin-top: 0px;
 	display : flex;
 	list-style-type: none;
 }
@@ -72,12 +75,16 @@ nav li{
 	width: 150px;
 	text-align: center;
 	padding-top: 30px;
+	color: black;
 }
 
-#hebergements{
+.ancreHebergements{
 	color: #408bfd;
+	margin-bottom: -2px;
+}
+
+.ligneHebergements{
 	border-top: 2px solid #408bfd;
-	font-weight: bold;
 }
 
 #inscription{
@@ -113,7 +120,7 @@ nav li{
 }
 
 #marseille{
-	font-weight: bold;
+	font-family: "raleway-extrabold";
 	border: 1px solid #F2F2F2;
 }
 
@@ -153,6 +160,7 @@ nav li{
 }
 
 #filtres li{
+	font-family: raleway-bold;
 	border: 1px solid #d0d0d0;
 	border-radius: 30px;
 	padding-right: 20px;
@@ -160,6 +168,9 @@ nav li{
 	margin-left: 20px;
 }
 
+#filtres i{
+
+}
 .pucesFiltres:hover{
 	background-color: grey;
 	cursor: pointer;
@@ -182,31 +193,44 @@ nav li{
 	color: #0065FC;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 11px;
 	padding-top: 10px;
 	background-color: #DEEBFF;
 	text-align: center;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	margin-left: -1px;
+	width: 16px;
+	height: 16px;
 }
 
+#filtres a{
+	text-decoration: none;
+	color: black;
+}
 
 .fa-info{
+	font-size: 12px;
 	color: #0065FC;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 7px;
+	padding-right: 7px;
 	border: 1px #d9d9d9 solid;
-	border-radius: 15px;
+	border-radius: 10px;
 	margin-right: 10px; 
 }
 
 .plusde{
-	font-style: "raleway-regular";
+	margin-top: 25px;
+	margin-bottom: 25px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
 
 /* Liste normale et populaires */
+
 #normalEtPopulaires{
 	margin-left: 50px;
 	margin-right: 50px;
@@ -214,7 +238,13 @@ nav li{
 	justify-content: space-between;
 }
 
+#normalEtPopulaires a{
+	text-decoration: none;
+	color: black;
+}
+
 /* Partie "hebergements à Marseille" */
+
 #listeHotels{
 	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
@@ -265,8 +295,13 @@ nav li{
 	margin-left: 40px;
 }
 
+.pCaption{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
 
 /* partie "les plus populaires" */
+
 #populaires{
 	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
@@ -293,7 +328,6 @@ nav li{
 
 #boitesPop{
 	margin-left: 40px;
-	width: 345px;
 }
 
 #boitesPop a{
@@ -306,8 +340,8 @@ nav li{
 }
 
 .figurePop{
-	width: 345px;
-	height: 145px;
+	width: 335px;
+	height: 140px;
 	border-radius: 20px;
 	background-color: white;
 	padding-left: 5px;
@@ -332,6 +366,7 @@ nav li{
 .captionPop{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* Les activités */
@@ -342,6 +377,11 @@ nav li{
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 40px;
+}
+
+#activites a{
+	text-decoration: none;
+	color: black;
 }
 
 #activites h1{
@@ -439,10 +479,11 @@ nav li{
 }
 
 #conteneur figcaption{
-	font-weight: bold;
-	margin-top: 10px;
-	margin-left: 10px;
+	font-family: raleway-bold;
+	margin-top: 15px;
+	margin-left: 20px;
 }
+
 
 /* Pied de page */
 
@@ -456,6 +497,16 @@ footer{
 	margin-top: 50px;
 }
 
+footer h2{
+	font-family: raleway-bold;
+	font-size: 18px;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
 footer li{
 	list-style-type: none;
 	margin-left: 0px;
@@ -463,6 +514,7 @@ footer li{
 }
 
 footer ul{
+	font-family: "raleway-medium";
 	padding-left: 0px;
 }
 
@@ -471,7 +523,13 @@ footer ul{
 }
 
 .fa-star{
+	font-size: 13px;
 	color: #0065FC;
 }
 
+.fas.vide{
+	color: #D9D9D9;
+}
 
+
+/* Responsive design */
