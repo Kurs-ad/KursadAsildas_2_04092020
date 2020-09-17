@@ -141,6 +141,10 @@ nav li{
 	padding-right: 15px;
 }
 
+.fa-search:before{
+	display: none;
+}
+
 
 /* partie filtres */
 
@@ -166,11 +170,11 @@ nav li{
 	padding-right: 20px;
 	height: 35px;
 	margin-left: 20px;
+	display: flex;
+	align-items: center;
 }
 
-#filtres i{
 
-}
 .pucesFiltres:hover{
 	background-color: grey;
 	cursor: pointer;
@@ -191,17 +195,15 @@ nav li{
 #filtres i{
 	border-radius: 30px;
 	color: #0065FC;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 11px;
-	padding-top: 10px;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #DEEBFF;
-	text-align: center;
 	margin-top: -1px;
 	margin-bottom: -1px;
 	margin-left: -1px;
-	width: 16px;
-	height: 16px;
 }
 
 #filtres a{
@@ -330,16 +332,13 @@ nav li{
 	margin-left: 40px;
 }
 
-#boitesPop a{
-	display: flex;
-}
-
 #boitesPop p{
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
 .figurePop{
+	display: flex;
 	width: 335px;
 	height: 140px;
 	border-radius: 20px;
@@ -364,6 +363,8 @@ nav li{
 }
 
 .captionPop{
+	margin-top: 10px;
+	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -391,7 +392,6 @@ nav li{
 
 #conteneur{
 	display: flex;
-	flex-direction: ;
 	flex-wrap: wrap;
 	height: 445px;
 	justify-content: space-between;
@@ -533,3 +533,185 @@ footer ul{
 
 
 /* Responsive design */
+
+@media screen and (max-width: 700px){
+
+	body{
+		margin: 0px;
+		width: 375px;
+	}
+
+	header{
+		display: inherit;
+		margin-left: 20px;
+		margin-right: 20px;
+		height: 130px;
+	}
+
+	header ul{
+		padding-left: 0px;
+	}
+
+	nav li{
+		padding-top: 10px;
+		width: 167.5px;
+	}
+
+	.ligneActivites{
+		border-bottom: 2px solid #d9d9d9;
+	}
+
+	.ligneHebergements{
+		border-top: inherit;
+		border-bottom: 2px solid #408bfd;
+		padding-bottom: 10px;
+	}
+
+	.logoReservia{
+		height: 65px;
+	}
+
+	#inscription{
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+
+	#slogan{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#champ{
+		display: none;
+	}
+
+	.fa-search:before{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #0065FC;
+		color: white;
+		border-radius: 10px;
+		height: 40px;
+		width: 40px;	
+		margin-left: -10px;	
+	}
+
+	#filtres{
+		margin-left: 20px;
+		margin-right: 20px;
+		flex-direction: column;
+	}
+
+	.recherche{
+		margin-left: 20px;
+	}
+
+	#filtres ul{
+		margin-top: 10px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding-left: 0px;
+	}
+
+	#filtres li{
+		margin-bottom: 20px;
+		margin-left: 0px;
+	}
+
+	.plusde{
+		margin-top: 20px;
+		margin-bottom: 30px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	#normalEtPopulaires{
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#populaires{
+		border-radius: inherit;
+		width: 375px;
+		height: inherit;
+		padding-bottom: 20px;
+	}
+
+	#entetePop{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#boitesPop{
+		margin-left: 20px;
+	}
+
+	.figurerPop{
+		margin-bottom: 10px;
+	}
+
+	#listeHotels{
+		width: 335px;
+		display: flex;
+		flex-direction: column;
+		height: inherit;
+		background-color: inherit;
+	}
+
+	#listeHotels h1{
+		margin-left: 20px;
+	}
+
+	.boitesHebergements{
+		margin-left: 20px;
+	}
+
+	#activites{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#activites h1{
+		margin-bottom: 20px;
+	}
+
+	#conteneur{
+		flex-wrap: inherit;
+		flex-direction: column;
+		height: inherit;
+	}
+
+	.element1{
+		margin-bottom: 20px;
+	}
+
+	.element2{
+		margin-bottom: 20px;
+	}
+
+	.element3{
+		margin-bottom: 20px;
+	}
+
+	.element4{
+		margin-bottom: 20px;
+	}
+
+
+	footer{
+		flex-direction: column;
+	}
+
+	.infoPied{
+		width: inherit;
+		margin-bottom: 20px;
+	}
+
+	.infoPied ul{
+		margin-bottom: 0px;
+	}
+}
