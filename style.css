@@ -18,6 +18,11 @@
 	src : url("raleway/static/raleway-medium.ttf");
 }
 
+@font-face{
+	font-family:"raleway-black";
+	src : url("raleway/static/raleway-black.ttf");
+}
+
 
 body{
 	font-family: raleway-regular;
@@ -109,7 +114,6 @@ nav li{
 	margin-left: 50px;
 	margin-right: 50px;
 	display :flex;
-	padding-left : none;
 	height:40px;
 	margin-bottom: 20px;
 }
@@ -136,10 +140,16 @@ nav li{
 	background-color: #F2F2F2;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
-	padding-top: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 40px;
 }
+
+.fa-map-marker-alt:before{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+}
+
 
 .fa-search:before{
 	display: none;
@@ -186,7 +196,8 @@ nav li{
 	padding-left: 10px;
 }
 
-#filtres h2{
+#filtres h3{
+	font-family: "raleway-bold";
 	margin: auto;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -214,13 +225,17 @@ nav li{
 .fa-info{
 	font-size: 12px;
 	color: #0065FC;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 7px;
-	padding-right: 7px;
 	border: 1px #d9d9d9 solid;
 	border-radius: 10px;
-	margin-right: 10px; 
+	margin-right: 10px;
+}
+
+.fa-info:before{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	width: 20px;
+	height: 20px;
 }
 
 .plusde{
@@ -254,7 +269,7 @@ nav li{
 	height: 620px;
 }
 
-#listeHotels h1{
+#listeHotels h2{
 	margin-top: 40px;
 	margin-left: 40px;
 }
@@ -319,7 +334,7 @@ nav li{
 	margin-right: 40px;
 }
 
-#entetePop h1{
+#entetePop h2{
 	margin-top: 0px;
 	margin-bottom: 20px;
 }
@@ -385,9 +400,9 @@ nav li{
 	color: black;
 }
 
-#activites h1{
+#activites h2{
 	margin: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 #conteneur{
@@ -421,6 +436,10 @@ nav li{
 	box-shadow: 5px 5px 5px #F2F2F2;
 }
 
+.responsiveVieuxPort{
+	display: none;
+}
+
 .element2{
 	width: 300px;
 	height: 235px;
@@ -445,6 +464,9 @@ nav li{
 	box-shadow: 5px 5px 5px #F2F2F2;
 }
 
+.responsiveActivites{
+	display: none;
+}
 
 .imageActivites1{
 	width: 300px;
@@ -480,8 +502,10 @@ nav li{
 
 #conteneur figcaption{
 	font-family: raleway-bold;
-	margin-top: 15px;
+	display: flex;
+	align-items: center;
 	margin-left: 20px;
+	height: 55px;
 }
 
 
@@ -532,12 +556,71 @@ footer ul{
 }
 
 
-/* Responsive design */
+/* Responsive design tablettes */
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
+	body{
+		width: 728px;
+	}
+
+	#filtres ul{
+		flex-wrap: wrap;
+	}
+
+	#filtres li{
+		margin-bottom: 10px;
+	}
+	
+	#normalEtPopulaires{
+		flex-direction: column;
+	}
+
+	#listeHotels{
+		margin-bottom: 10px;
+		width: inherit;
+		height: inherit;
+	}
+
+	.PlusDeResultats{
+		margin-bottom: 20px;
+	}
+
+	#populaires{
+		width: inherit;
+	}
+
+	.figurePop{
+		width: 425px;
+	}
+
+	.imagePop{
+		width:185px;
+	}
+
+	#conteneur{
+		height: inherit;
+	}
+
+	.colonne2{
+		margin-bottom: 10px;
+	}
+
+	.colonne4{
+		margin-bottom: 10px;
+	}
+
+	.element1{
+		margin-bottom: 10px;
+	}
+}
+
+
+/* Responsive design smartphones */
+
+@media screen and (max-width: 425px){
 
 	body{
-		margin: 0px;
+		margin: auto;
 		width: 375px;
 	}
 
@@ -574,7 +657,9 @@ footer ul{
 	#inscription{
 		position: absolute;
 		right: 0px;
-		top: 0px;
+		top:20px;
+		font-family: "raleway-extrabold";
+		margin-right: 20px;
 	}
 
 	#slogan{
@@ -593,9 +678,19 @@ footer ul{
 		background-color: #0065FC;
 		color: white;
 		border-radius: 10px;
-		height: 40px;
-		width: 40px;	
+		height: 50px;
+		width: 50px;	
 		margin-left: -10px;	
+	}
+
+	.fa-map-marker-alt{
+		width: 50px;
+		height: 50px;
+	}
+
+	#marseille{
+		height: 46px;
+		width: 255px;
 	}
 
 	#filtres{
@@ -605,6 +700,9 @@ footer ul{
 	}
 
 	.recherche{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 335px;
 		margin-left: 20px;
 	}
 
@@ -630,8 +728,8 @@ footer ul{
 	#normalEtPopulaires{
 		flex-direction: column-reverse;
 		justify-content: space-between;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: inherit;
+		margin-right: inherit;
 	}
 
 	#populaires{
@@ -651,10 +749,21 @@ footer ul{
 	}
 
 	.figurerPop{
+		width: inherit;
 		margin-bottom: 10px;
 	}
 
+	.figurePop{
+		width: 335px;
+	}
+
+	.imagePop{
+		width: 125px;
+		height: 130px;
+	}
+
 	#listeHotels{
+		margin: auto;
 		width: 335px;
 		display: flex;
 		flex-direction: column;
@@ -662,11 +771,27 @@ footer ul{
 		background-color: inherit;
 	}
 
-	#listeHotels h1{
+	#listeHotels h2{
 		margin-left: 20px;
 	}
 
 	.boitesHebergements{
+		margin-left: auto;
+	}
+
+	.figureHebergements{
+		width: 325px;
+		margin:auto;
+		margin-bottom: 20px;
+		box-shadow: 10px 10px 10px #F2F2F2;
+	}
+
+	.figureHebergements img{
+		width: 325px;
+		margin-top: 5px;
+	}
+
+	.PlusDeResultats{
 		margin-left: 20px;
 	}
 
@@ -685,25 +810,67 @@ footer ul{
 		height: inherit;
 	}
 
+	#conteneur figcaption{
+		display: flex;
+		align-items: center;
+		height: 55px;
+		margin-top:;
+	}
+
 	.element1{
 		margin-bottom: 20px;
+		height: inherit;
+		width: inherit;
+	}
+
+	.imageActivites1{
+		display: none;
+	}
+
+	.imageActivites2{
+		display: none;
+	}
+
+	.imageActivites3{
+		display: none;
+	}
+
+	.imageActivites4{
+		display: none;
+	}
+
+	.responsiveActivites{
+		display: inherit;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
 	}
 
 	.element2{
 		margin-bottom: 20px;
+		height: inherit;
+		width: inherit;
 	}
 
 	.element3{
 		margin-bottom: 20px;
+		height: inherit;
+		width: inherit;
 	}
 
 	.element4{
 		margin-bottom: 20px;
+		height: inherit;
+		width: inherit;
+	}
+
+	.element4 img{
+		width: 335px;
 	}
 
 
 	footer{
 		flex-direction: column;
+		margin-top: 30px;
 	}
 
 	.infoPied{
