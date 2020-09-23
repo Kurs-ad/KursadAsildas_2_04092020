@@ -162,8 +162,8 @@ nav li{
 	margin-left: 50px;
 	margin-right: 50px;
 	display: flex;
-	justify-content: space-start;
-	font-style: "raleway-bold";
+	justify-content: flex-start;
+	font-family: "raleway-bold";
 }
 
 #filtres ul{
@@ -390,8 +390,6 @@ nav li{
 #activites{
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
 	margin-top: 40px;
 }
 
@@ -556,9 +554,61 @@ footer ul{
 }
 
 
+/* Responsive pour enlever les barres de défilement horizontales */
+
+@media (max-width: 1340px){
+	body{
+		width: 1340px;
+	}
+
+	header{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#slogan{
+	margin-left: 20px;
+	}
+	
+	.recherche{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	
+	#filtres{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
+	.plusde{
+		margin-left: 20px;
+	}
+	
+	#normalEtPopulaires{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	
+	#listeHotels{
+		width: 850px;
+	}
+
+	#listeHotels h2{
+		margin-left: 20px;
+	}
+
+	.boitesHebergements{
+		margin-left: 20px;
+	}
+
+	#activites{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
 /* Responsive design tablettes */
 
-@media screen and (max-width: 768px){
+@media (max-width: 1024px){
 	body{
 		width: 728px;
 	}
@@ -617,7 +667,7 @@ footer ul{
 
 /* Responsive design smartphones */
 
-@media screen and (max-width: 425px){
+@media (max-width: 668px){
 
 	body{
 		margin: auto;
