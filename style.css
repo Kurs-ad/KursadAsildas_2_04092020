@@ -685,7 +685,8 @@ footer ul{
 	#inscriptionSmartphone{
 		font-weight: 700;
 		color: #408bfd;
-		display: inherit;
+		display: flex;
+		align-items: center;
 	}
 
 	#slogan{
