@@ -901,14 +901,13 @@ footer ul{
 
 
 	footer{
-		width: 335px;
-		margin: auto;
 		flex-direction: column;
 		margin-top: 30px;
 	}
 
 	.infoPied{
-		width: inherit;
+		width: 335px;
+		margin: auto;
 		margin-bottom: 20px;
 	}
 
