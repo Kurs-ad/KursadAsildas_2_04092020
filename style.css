@@ -23,6 +23,7 @@
 
 
 body{
+	max-width: 1440px;
 	font-family: "raleway";
 	margin: auto;
 }
@@ -176,7 +177,7 @@ nav li{
 
 
 .pucesFiltres:hover{
-	background-color: grey;
+	background-color: #F2F2F2;
 	cursor: pointer;
 }
 
@@ -678,7 +679,7 @@ footer ul{
 		height: 65px;
 	}
 
-	#inscription{
+	.inscription{
 		display: none;
 	}
 
@@ -846,7 +847,6 @@ footer ul{
 		display: flex;
 		align-items: center;
 		height: 55px;
-		margin-top:;
 	}
 
 	.element1{
