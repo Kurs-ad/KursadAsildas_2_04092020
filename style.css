@@ -1,23 +1,23 @@
 @font-face{
 	font-family:"raleway";
-	src : url("Raleway/static/raleway-bold.ttf");
+	src : url("Raleway/static/Raleway-Bold.ttf");
 	font-weight: 700;
 }
 
 @font-face{
 	font-family:"raleway";
-	src : url("Raleway/static/raleway-extrabold.ttf");
+	src : url("Raleway/static/Raleway-Extrabold.ttf");
 	font-weight: 800;
 }
 
 @font-face{
 	font-family:"raleway";
-	src : url("Raleway/static/raleway-regular.ttf");
+	src : url("Raleway/static/Raleway-Regular.ttf");
 }
 
 @font-face{
 	font-family:"raleway";
-	src : url("Raleway/static/raleway-medium.ttf");
+	src : url("Raleway/static/Raleway-Medium.ttf");
 }
 
 
@@ -90,6 +90,10 @@ nav li{
 
 #inscriptionSmartphone{
 	display: none;
+}
+
+.logoReservia{
+	margin-top: 20px;
 }
 
 /* Slogan */
@@ -674,7 +678,7 @@ footer ul{
 		padding-bottom: 10px;
 	}
 
-	.logoReservia{
+	.logoReservia{margin-top: inherit;
 		margin-left: 20px;
 		height: 65px;
 	}
