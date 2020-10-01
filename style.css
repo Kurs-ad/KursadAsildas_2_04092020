@@ -646,7 +646,7 @@ footer ul{
 
 	header{
 		width: 375px;
-		margin: auto;
+		margin-left: 0px;
 		display: inherit;
 		height: 130px;
 	}
@@ -696,7 +696,8 @@ footer ul{
 
 	#slogan{
 		width: 335px;
-		margin: auto;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 	#champ{
@@ -801,6 +802,7 @@ footer ul{
 
 	#listeHotels{
 		margin-left: 20px;
+		margin-right: 20px;
 		width: 335px;
 		display: flex;
 		flex-direction: column;
