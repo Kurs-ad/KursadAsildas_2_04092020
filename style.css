@@ -801,6 +801,7 @@ footer ul{
 
 	#listeHotels{
 		width: 335px;
+		margin: auto;
 		display: flex;
 		flex-direction: column;
 		height: inherit;
