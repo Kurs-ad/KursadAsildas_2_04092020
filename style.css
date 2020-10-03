@@ -641,11 +641,12 @@ footer ul{
 @media (max-width: 740px){
 
 	body{
+		width: 100%;
 		margin: auto;
 	}
 
 	header{
-		width: 350px;
+		width: inherit;
 		margin: auto;
 		display: inherit;
 		height: 130px;
@@ -695,8 +696,8 @@ footer ul{
 	}
 
 	#slogan{
-		width: 335px;
-		margin: auto;
+		width: inherit;
+		margin-left: 10px;
 	}
 
 	#champ{
@@ -726,24 +727,26 @@ footer ul{
 	}
 
 	#filtres{
-		width: 335px;
-		margin: auto;
 		flex-direction: column;
 	}
 
 	#recherche{
-		width: 350px;
+		margin-left: 10px;
+		margin-right: 10px;
+		width: inherit;
 	}
 
 	.recherche{
 		margin: auto;
 		margin-top: 30px;
 		margin-bottom: 30px;
-		width: 335px;
+		margin-right: 10px;
+		width: inherit;
 	}
 
 	#filtres ul{
 		margin-top: 10px;
+		margin-right: 10px;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		padding-left: 0px;
@@ -756,13 +759,13 @@ footer ul{
 
 	.plusde{
 		margin: auto;
-		width: 335px;
+		width: inherit;
 		margin-top: 20px;
 		margin-bottom: 30px;
 	}
 
 	#normalEtPopulaires{
-		width: 350px;
+		width: inherit;
 		flex-direction: column-reverse;
 		justify-content: space-between;
 		margin-left: inherit;
@@ -771,7 +774,7 @@ footer ul{
 
 	#populaires{
 		border-radius: inherit;
-		width: 350px;
+		width: inherit;
 		height: inherit;
 		padding-bottom: 20px;
 	}
@@ -800,8 +803,9 @@ footer ul{
 	}
 
 	#listeHotels{
-		width: 335px;
-		margin: auto;
+		width: inherit;
+		margin-left: 10px;
+		margin-right: 10px;
 		display: flex;
 		flex-direction: column;
 		height: inherit;
@@ -834,7 +838,9 @@ footer ul{
 	}
 
 	#activites{
-		width: 335px;
+		width: inherit;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	#activites h1{
@@ -856,7 +862,7 @@ footer ul{
 	.element1{
 		margin-bottom: 20px;
 		height: inherit;
-		width: inherit;
+		width: 335px;
 	}
 
 	.imageActivites1{
@@ -884,19 +890,19 @@ footer ul{
 	.element2{
 		margin-bottom: 20px;
 		height: inherit;
-		width: inherit;
+		width: 335px;
 	}
 
 	.element3{
 		margin-bottom: 20px;
 		height: inherit;
-		width: inherit;
+		width: 335px;
 	}
 
 	.element4{
 		margin-bottom: 20px;
 		height: inherit;
-		width: inherit;
+		width: 335px;
 	}
 
 	.element4 img{
@@ -910,7 +916,7 @@ footer ul{
 	}
 
 	.infoPied{
-		width: 335px;
+		width: 100%;
 		margin: auto;
 		margin-bottom: 20px;
 	}
