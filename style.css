@@ -656,6 +656,7 @@ footer ul{
 	}
 
 	.hautDePage{
+		margin-right: 10px;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -843,7 +844,8 @@ footer ul{
 		margin-right: 10px;
 	}
 
-	#activites h1{
+	#activites h2{
+		margin-left: 10px;
 		margin-bottom: 20px;
 	}
 
