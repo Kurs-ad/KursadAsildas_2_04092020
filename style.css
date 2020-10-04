@@ -556,8 +556,10 @@ footer ul{
 /* Responsive design tablettes */
 
 @media (max-width: 1360px){
+	body{
+		max-width: 728px;
+	}
 	header{
-		width: 728px;
 		margin: auto;
 	}
 
@@ -573,26 +575,23 @@ footer ul{
 		margin-bottom: 10px;
 	}
 
-	#slogan{		
-		width: 728px;
+	#slogan{
 		margin: auto;
 	}
 
 	#recherche{
-		width: 728px;
 		margin: auto;
 	}
 
 	
 	#normalEtPopulaires{
-		width: 728px;
 		margin: auto;
 		flex-direction: column;
 	}
 
 	#listeHotels{
 		margin-bottom: 10px;
-		width: inherit;
+		width: 100%;
 		height: inherit;
 	}
 
@@ -601,7 +600,7 @@ footer ul{
 	}
 
 	#populaires{
-		width: inherit;
+		width: 100%;
 	}
 
 	.figurePop{
@@ -613,7 +612,6 @@ footer ul{
 	}
 
 	#activites{
-		width: 728px;
 		margin: auto;
 		margin-top: 40px;
 	}
