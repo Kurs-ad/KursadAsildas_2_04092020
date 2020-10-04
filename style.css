@@ -640,6 +640,7 @@ footer ul{
 
 	body{
 		width: 100%;
+		max-width: 375px;
 		margin: auto;
 	}
 
