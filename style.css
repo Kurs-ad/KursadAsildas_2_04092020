@@ -786,7 +786,7 @@ footer ul{
 	}
 
 	#boitesPop{
-		margin-left: 10px;
+		margin-left: 5px;
 	}
 
 	.figurerPop{
@@ -795,7 +795,7 @@ footer ul{
 	}
 
 	.figurePop{
-		width: 320px;
+		width: 300px;
 	}
 
 	.imagePop{
@@ -818,18 +818,18 @@ footer ul{
 	}
 
 	.boitesHebergements{
-		margin-left: auto;
+		margin: auto;
 	}
 
 	.figureHebergements{
-		width: 325px;
+		width: inherit;
 		margin:auto;
 		margin-bottom: 20px;
 		box-shadow: 10px 10px 10px #F2F2F2;
 	}
 
 	.figureHebergements img{
-		width: 325px;
+		width: 320px;
 		margin-top: 5px;
 	}
 
@@ -864,7 +864,7 @@ footer ul{
 	.element1{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 335px;
+		width: 320px;
 	}
 
 	.imageActivites1{
@@ -884,6 +884,7 @@ footer ul{
 	}
 
 	.responsiveActivites{
+		width: 320px;
 		display: inherit;
 		border-top-right-radius: 10px;
 		border-top-left-radius: 10px;
@@ -892,23 +893,23 @@ footer ul{
 	.element2{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 335px;
+		width: 320px;
 	}
 
 	.element3{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 335px;
+		width: 320px;
 	}
 
 	.element4{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 335px;
+		width: 320px;
 	}
 
 	.element4 img{
-		width: 335px;
+		width: 320px;
 	}
 
 
