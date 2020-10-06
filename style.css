@@ -654,11 +654,6 @@ footer ul{
 		font-size: 25px;
 	}
 
-	.hautDePage{
-		margin-right: 10px;
-		display: flex;
-		justify-content: space-between;
-	}
 
 	header ul{
 		padding-left: 0px;
@@ -685,15 +680,11 @@ footer ul{
 	}
 
 	.inscription{
-		display: none;
+		position: absolute;
+		top: 15px;
+		right: 10px;
 	}
 
-	#inscriptionSmartphone{
-		font-weight: 700;
-		color: #408bfd;
-		display: flex;
-		align-items: center;
-	}
 
 	#slogan{
 		width: inherit;
