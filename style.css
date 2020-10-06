@@ -639,13 +639,12 @@ footer ul{
 @media (max-width: 740px){
 
 	body{
-		width: 100%;
 		max-width: 375px;
 		margin: auto;
 	}
 
 	header{
-		width: inherit;
+		width: 100%;
 		margin: auto;
 		display: inherit;
 		height: 130px;
@@ -660,8 +659,8 @@ footer ul{
 	}
 
 	nav li{
+		width: 100%;
 		padding-top: 10px;
-		width: 187.5px;
 	}
 
 	.ligneActivites{
@@ -714,25 +713,24 @@ footer ul{
 
 	#marseille{
 		height: 46px;
-		width: 220px;
+		width: 200px;
 	}
 
 	#filtres{
+		margin-left: 10px;
+		margin-right: 10px;
 		flex-direction: column;
 	}
 
 	#recherche{
-		margin-left: 10px;
-		margin-right: 10px;
-		width: inherit;
+		width: 100%;
 	}
 
 	.recherche{
-		margin: auto;
+		margin-left: 10px;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		margin-right: 10px;
-		width: inherit;
 	}
 
 	#filtres ul{
@@ -750,14 +748,14 @@ footer ul{
 	}
 
 	.plusde{
-		margin: auto;
-		width: inherit;
+		margin-left: 10px;
+		margin-right: 10px;
 		margin-top: 20px;
 		margin-bottom: 30px;
 	}
 
 	#normalEtPopulaires{
-		width: inherit;
+		width: 100%;
 		flex-direction: column-reverse;
 		justify-content: space-between;
 		margin-left: inherit;
@@ -766,7 +764,7 @@ footer ul{
 
 	#populaires{
 		border-radius: inherit;
-		width: inherit;
+		width: 100%;
 		height: inherit;
 		padding-bottom: 20px;
 	}
@@ -780,13 +778,10 @@ footer ul{
 		margin-left: 5px;
 	}
 
-	.figurerPop{
-		width: inherit;
-		margin-bottom: 10px;
-	}
 
 	.figurePop{
 		width: 300px;
+		margin-right: inherit;
 	}
 
 	.imagePop{
@@ -794,10 +789,12 @@ footer ul{
 		height: 130px;
 	}
 
+	.captionPop{
+		margin-left: inherit;
+	}
+
 	#listeHotels{
-		width: inherit;
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-right: 0px;
 		display: flex;
 		flex-direction: column;
 		height: inherit;
@@ -820,7 +817,7 @@ footer ul{
 	}
 
 	.figureHebergements img{
-		width: 310px;
+		width: 300px;
 		margin-top: 5px;
 	}
 
@@ -830,7 +827,7 @@ footer ul{
 	}
 
 	#activites{
-		width: inherit;
+		width: 100%;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
@@ -855,7 +852,7 @@ footer ul{
 	.element1{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 320px;
+		width: 300px;
 	}
 
 	.imageActivites1{
@@ -875,7 +872,7 @@ footer ul{
 	}
 
 	.responsiveActivites{
-		width: 320px;
+		width: 300px;
 		display: inherit;
 		border-top-right-radius: 10px;
 		border-top-left-radius: 10px;
@@ -884,23 +881,23 @@ footer ul{
 	.element2{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 320px;
+		width: 300px;
 	}
 
 	.element3{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 320px;
+		width: 300px;
 	}
 
 	.element4{
 		margin-bottom: 20px;
 		height: inherit;
-		width: 320px;
+		width: 300px;
 	}
 
 	.element4 img{
-		width: 320px;
+		width: 300px;
 	}
 
 
