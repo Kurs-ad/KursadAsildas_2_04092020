@@ -723,7 +723,9 @@ footer ul{
 	}
 
 	#recherche{
-		width: 100%;
+		margin-right: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	.recherche{
@@ -802,10 +804,16 @@ footer ul{
 	}
 
 	#listeHotels h2{
-		margin-left: 10px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 	.boitesHebergements{
+		margin: auto;
+	}
+
+	.boitesHebergements a{
 		margin: auto;
 	}
 
@@ -821,20 +829,15 @@ footer ul{
 		margin-top: 5px;
 	}
 
-	.PlusDeResultats{
-		margin-left: 10px;
-		margin-top: 10px;
-	}
 
 	#activites{
 		width: 100%;
-		margin-left: 10px;
-		margin-right: 10px;
 	}
 
 	#activites h2{
-		margin-left: 10px;
-		margin-bottom: 20px;
+		width: 250px;
+		margin: auto;
+		margin-bottom: 30px;
 	}
 
 	#conteneur{
@@ -850,6 +853,7 @@ footer ul{
 	}
 
 	.element1{
+		margin: auto;
 		margin-bottom: 20px;
 		height: inherit;
 		width: 300px;
@@ -879,18 +883,21 @@ footer ul{
 	}
 
 	.element2{
+		margin: auto;
 		margin-bottom: 20px;
 		height: inherit;
 		width: 300px;
 	}
 
 	.element3{
+		margin: auto;
 		margin-bottom: 20px;
 		height: inherit;
 		width: 300px;
 	}
 
 	.element4{
+		margin: auto;
 		margin-bottom: 20px;
 		height: inherit;
 		width: 300px;
